@@ -10,6 +10,8 @@ My goal with this fork: Come up with an automated way to generate and upload pac
 
 Ideally this mentality could be applied with ease to multiple client languages. As a provider, I want to make it easy for my clients to keep their pacts up to date regardless of what language they choose to program in.
 
+Worthy of note: this technique would enable higher value of using [swagger-mock-validator](https://bitbucket.org/atlassian/swagger-mock-validator/src/master/). Frequently, pact modification generally entails agreement (and sometimes negotiation) between teams. If the pact were automatically generated and uploaded by the build process, it is feasible (desirable?) the pact could drift. In such a case, validating the pact and swagger align is more valuable (and worth the extra effort in the build pipline, due to reduced engineer overhead).
+
 # Example Code Repository
 
 [![Travis CI Status](https://travis-ci.org/thombergs/code-examples.svg?branch=master)](https://travis-ci.org/thombergs/code-examples)
